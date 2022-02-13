@@ -1,0 +1,71 @@
+
+.content_title{
+    margin-bottom: 5%;
+}
+
+.formular{
+    margin-top: 10%;
+    background-image: url("../img/map.jpg");
+    background-size: 105%;
+    padding: 5% 10%;
+
+    &_content{
+        display: flex;
+        flex-direction: row;
+        
+        &_form{
+            padding: 5%;
+            background-color: white;
+            flex: 1;
+            
+
+            &_items{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 4%;
+
+                &_button{
+                    background-color: rgb(202, 58, 58);
+                    width: 100%;
+                    padding: 2% 0%;
+                    border-radius: 10px;
+                    border: none;
+                    margin-top: 5%;
+                    color: white;
+                    transition: 0.5s;
+
+                    &:hover{
+                        background-color: black;
+                        transition: 0.5s;
+                    }
+                }
+            }
+
+            &_items input {
+                height: 30px;
+                width: 46%;
+                margin-bottom: 3%;
+            }
+
+           
+        }
+
+        &_map{
+           flex: 1.3;
+        }
+
+    }
+}
+
+@media(max-width: 992px){
+    .formular{
+        &_content{
+            flex-direction: column;
+            
+            &_map{
+                margin-top: 5%;
+            }
+        }
+    }
+}

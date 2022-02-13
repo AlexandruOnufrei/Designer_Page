@@ -1,0 +1,156 @@
+@import "./variables.scss";
+
+
+.div{
+    position: absolute;
+    left: 15%;
+    top: 70%;
+    width: 70%;
+    background-color: white;
+    border-radius: 10px;
+
+    &_search{
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        
+        
+        &_info{
+            flex: 1;
+    
+            &_h2{
+                font-size: 130%;
+                margin-top: 20%;
+                margin-bottom: 10%;
+            }
+        }
+            
+        &_info input{
+           height: 40px;
+           width: 90%;
+        //    border: none;
+        }
+    
+        &_info select {
+            height: 40px;
+            width: 90%;
+            // border: none;
+        }
+         
+        &_button{
+            background-color: rgb(202, 58, 58);
+            width: 100%;
+            margin-top: 2%;
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 105%;
+            transition: 0.5s;
+
+            &:hover{
+                background-color: black;
+                transition: 0.5s;
+            }
+            
+        }
+    }
+
+}
+
+@media(max-width: 992px){
+    .div_search{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 5% 0%;
+        margin-left: 10%;
+        margin-right: 10%;
+
+
+        &_info{
+            flex: 1;
+            // border: 1px solid;
+            margin-top: 5%;
+    
+            &_h2{
+                font-size: 130%;
+                margin-top: 0%;
+                margin-bottom: 5%;
+            }
+        }
+
+        &_info input{
+            width: 100%;
+         }
+     
+         &_info select {
+             width: 100%;
+         }
+
+        &_button{
+            margin-top: 5%;
+        }
+    }
+}
+
+
+
+
+
+// .card{
+//     width: 400px;
+//     height: 600px;
+//     border: 1px solid;
+//     position: relative;
+
+//     &_content{
+//         position: absolute;
+//         z-index: 999;
+//         background-color: aliceblue;
+//         left: 50%;
+//         top: 50%;
+//         transform: translate(-50%);
+//         visibility: hidden;
+
+//         &_1{
+//             transform: translateX(-50%);
+//             transition: 1s;
+//         }
+
+//         &_2{
+//             transform: translateX(50%);
+//             transition: 1s;
+//         }
+//     }
+
+//     &:hover p{
+//         visibility: visible;
+//         transform: translateX(0);
+//         transition: 1s;
+//     }
+
+//     &:hover::before{
+//         visibility: visible;
+//         transition: 0.5s;
+//     }
+
+//     &::before{
+//         content: "";
+//         background-color: rgba(202, 58, 58, 0.452);
+//         position: absolute;
+//         width: 100%;
+//         height: 100%;
+//         visibility: hidden;
+//         transition: 0.5s;
+//     }
+
+//     &_img{
+//         object-fit: cover;
+//     }
+// }
+
+
+
