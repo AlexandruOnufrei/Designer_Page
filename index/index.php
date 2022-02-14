@@ -19,6 +19,6 @@
 
     ?>
     
-
+    <script src="https://kit.fontawesome.com/a858246c02.js" crossorigin="anonymous"></script>
 </body>
 </html>

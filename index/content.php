@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/main.css">
-    <title>Document</title>
-</head>
-<body>
+
     <main class="main">
         <div class="main_title">
             <div class="main_title_1">EXPLORE SOME OF OUR LATEST</div>
@@ -96,6 +87,3 @@
 
             
 
-    <script src="https://kit.fontawesome.com/a858246c02.js" crossorigin="anonymous"></script>
-</body>
-</html>

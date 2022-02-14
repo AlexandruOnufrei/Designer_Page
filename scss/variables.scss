@@ -1,3 +1,32 @@
+$color1 : rgb(202, 58, 58);
+$color2 : white;
+$color3 : rgb(41, 40, 40);
+$color4 : gray;
+
+$transition1 : 0.5s;
+
+%title1{
+   margin-top: 2%;
+   color: $color2; 
+}
+
+@mixin button(){
+   background-color: $bc;
+   color: $c;
+   transition: $t;
+}
+
+@mixin display1($d, $fd, $jc, $ai) {
+   display: $d;
+   flex-direction: $fd;
+   justify-content: $jc;
+   align-items: $ai;
+}
+
+
+
+
+
 @mixin breakpoint($point) {
     @if $point == desktop {
       @media (max-width: 1400px) { @content ; }
